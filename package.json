@@ -1,0 +1,43 @@
+{
+  "name": "fixate-themes",
+  "displayName": "Fixate Themes",
+  "description": "A somewhat muted set of minimalist syntax highlighting themes for VS Code. The themes include black, almost black, gray, and light.",
+  "publisher": "Postnumbers",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postnumbers/fixate-vscode-themes.git"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fixate Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fixate-black-color-theme.json"
+      },
+      {
+        "label": "Fixate Blackish",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fixate-blackish-color-theme.json"
+      },
+      {
+        "label": "Fixate Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fixate-gray-color-theme.json"
+      },
+      {
+        "label": "Fixate Light",
+        "uiTheme": "vs",
+        "path": "./themes/fixate-light-color-theme.json"
+      }
+    ]
+  }
+}
