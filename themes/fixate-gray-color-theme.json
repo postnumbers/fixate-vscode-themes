@@ -698,13 +698,6 @@
       }
     },
     {
-      "name" : "Markdown Heading 1 Punctuation Definition",
-      "scope" : "punctuation.definition.heading heading.1",
-      "settings" : {
-        "foreground" : "#98C07C4D"
-      }
-    },
-    {
       "name" : "Markdown Heading 1",
       "scope" : "heading.1.markdown",
       "settings" : {
@@ -713,10 +706,10 @@
       }
     },
     {
-      "name" : "Markdown Heading 2 Punctuation Definition",
-      "scope" : "punctuation.definition.heading heading.2",
+      "name" : "Markdown Heading 1 Punctuation Definition",
+      "scope" : "punctuation.definition.heading heading.1",
       "settings" : {
-        "foreground" : "#809BFF4D"
+        "foreground" : "#98C07C4D"
       }
     },
     {
@@ -727,10 +720,10 @@
       }
     },
     {
-      "name" : "Markdown Heading 3+ Punctuation Definition",
-      "scope" : "punctuation.definition.heading",
+      "name" : "Markdown Heading 2 Punctuation Definition",
+      "scope" : "punctuation.definition.heading heading.2",
       "settings" : {
-        "foreground" : "#9D8AFF4D"
+        "foreground" : "#809BFF4D"
       }
     },
     {
@@ -743,6 +736,13 @@
       ],
       "settings" : {
         "foreground" : "#9D8AFF"
+      }
+    },
+    {
+      "name" : "Markdown Heading 3+ Punctuation Definition",
+      "scope" : "punctuation.definition.heading",
+      "settings" : {
+        "foreground" : "#9D8AFF4D"
       }
     },
     {
@@ -858,7 +858,7 @@
         "markup.italic markup.bold markup.underline"
       ],
       "settings" : {
-        "fontStyle" : "bold underline",
+        "fontStyle" : "bold italic underline",
         "foreground" : "#64AFE8"
       }
     },

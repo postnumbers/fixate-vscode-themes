@@ -864,7 +864,7 @@
         "markup.italic markup.bold markup.underline"
       ],
       "settings" : {
-        "fontStyle" : "bold underline",
+        "fontStyle" : "bold italic underline",
         "foreground" : "#3798E1"
       }
     },
